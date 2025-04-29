@@ -13,16 +13,17 @@ The primary data for this project comes from the Spotify API, with additional in
 
 ## Setup Instructions 
 This project was primarily created for graduate school purposes, and the code is mainly for demonstration. However, the code can be used and reproduced if necessary. Below are the setup steps to get the project up and running:
-    1. **Cloning this Repository to your local machine**
-    2. **Installing the Required packages**
-    3. **Obtaining the run data/new**\
-        - `get_albums.ipynb` (need a Spotify API)\
-        - `get_albumsgenre.ipynb` (need Wikipedia and Last.fm API)\
-        - `save_images.ipynb` (convert URL images to JPG images)
-    4. **Collect more features from the album cover** (run code in `data_collection`)
-    5. **To perform modeling**, run code in `models`:\
-        - a. Run CNN model - `untrained_cnn.ipynb`\
-        - b. Run ANN model - `ann_popularity_ensemble_final.ipynb`\
+
+1. **Cloning this Repository to your local machine**
+2. **Installing the Required packages**
+3. **Obtaining the run data/new:**
+   - `get_albums.ipynb` (need a Spotify API)
+   - `get_albumsgenre.ipynb` (need Wikipedia and Last.fm API)
+   - `save_images.ipynb` (convert URL images to JPG images)
+4. **Collect more features from the album cover** (`code/data_collection`)
+5. **To perform modeling**, use `code/models`:
+   - a. Run CNN model - `untrained_cnn.ipynb`
+   - b. Run ANN model - `ann_popularity_ensemble_final.ipynb`
 
 ## Project Structure 
 - /data/: Contains files for obtaining the initial setup data from Spotify and other APIs, along with exploratory data analysis (EDA)
