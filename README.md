@@ -1,4 +1,4 @@
-### Face the Music: Can an Album’s Cover Art Predict its Popularity?
+# Face the Music: Can an Album’s Cover Art Predict its Popularity?
 
 ## Group Members
 Member-1: Jessica Joy \
